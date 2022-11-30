@@ -1,0 +1,3 @@
+[submodule "pack/themes/start/tender.vim"]
+	path = pack/themes/start/tender.vim
+	url = https://github.com/jacoborus/tender.vim
