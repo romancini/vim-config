@@ -23,3 +23,9 @@ set hlsearch " highlight matches
 
     " turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
+
+" Ragtag
+inoremap <M-o>       <Esc>o
+inoremap <C-j>       <Down>
+let g:ragtag_global_maps = 1
+

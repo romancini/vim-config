@@ -1,3 +1,9 @@
 [submodule "pack/themes/start/tender.vim"]
 	path = pack/themes/start/tender.vim
 	url = https://github.com/jacoborus/tender.vim
+[submodule "pack/tpope/start/commentary"]
+	path = pack/tpope/start/commentary
+	url = https://github.com/tpope/vim-commentary
+[submodule "pack/tpope/start/surround"]
+	path = pack/tpope/start/surround
+	url = https://github.com/tpope/vim-surround
