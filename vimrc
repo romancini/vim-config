@@ -1,6 +1,6 @@
 " Colors
 syntax on " enable syntax processing
-colorscheme tender
+colorscheme codedark
 
 " Spaces and Tabs
 set tabstop=4 " number of visual spaces per TAB
@@ -11,7 +11,7 @@ set expandtab " tabs are spaces
 set number " line numbers
 set showcmd " command on bottom bar
 set cursorline " highlight current line
-filetype indent on " load filetype-specific indent files
+filetype plugin indent on " load filetype-specific indent files
 set wildmenu " visual autocomplete for command menu
 set lazyredraw " redraw only when we need to.
 set showmatch " highlight matching [{()}]
@@ -29,3 +29,7 @@ inoremap <M-o>       <Esc>o
 inoremap <C-j>       <Down>
 let g:ragtag_global_maps = 1
 
+" Golang
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
+" let g:go_doc_popup_window = 1
